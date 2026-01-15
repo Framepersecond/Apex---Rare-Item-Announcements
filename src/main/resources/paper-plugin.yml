@@ -1,0 +1,13 @@
+name: Apex
+version: '1.0'
+main: ms.apex.Apex
+api-version: '1.21'
+commands:
+  apex:
+    description: Open the Apex settings menu
+    usage: /apex settings
+    permission: apex.command
+permissions:
+  apex.command:
+    description: Allows opening the Apex settings menu
+    default: true
